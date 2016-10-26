@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html class='step-1'>
+<head>
+	<meta name="description" 
+      content="Using an SDR and a PVC antenna to capture images from weather satellites.">
+      <meta name="author" content="Dhruv Mehrotra">
+
+	<link rel="stylesheet" type="text/css" href="./css/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="./css/examples.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Satellite Sounds_</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+
+	<script type="text/javascript" src="./js/fullpage.min.js"></script>
+	<script type="text/javascript" src="./js/app.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage','4rdPage','5rdPage','6rdPage'],
+			sectionsColor: ['#000', '#000', '#FFF', '#FFF',"#FFF","#FFF",'#000','#000'],
+			css3: true
+		});
+		
+	});
+</script>
+</head>
+<body>
+
+
+	<div id="header"> <span class="small">></span>  Satellite Sounds : Capturing Satellite Imagery <span class="blink">|</span> </div>
+
+	<div id="fullpage">
+		<div class="section " id="section0">
+			<div class="intro">
+				<div class='bg'>
+					<div class="centered">
+						<p>
+							Radio Signals are overwhelming.  Transmissions from indifferent devices, near or far, swarm the air around us as we push through our cities unaware of all information not meant for us.  Amongst the information not necessarily meant for us are the signals transmitted from unmanned meteorological satellites. However, with the correct equipment, some software, and patience you can tease out satellite imagery from the air, with spectacular results. 
+							<br>
+							<div style="text-align:center"><img style="width:50px"src="./images/sat.png" alt=""></div>
+
+						</p>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="section" id="section1">
+		    <div class="slide" id="slide1">
+				<div class="intro">
+					<h1>Overview <span class="blink">|</span></h1>
+				</div>
+			</div>
+
+		    <div class="slide" id="slide2">
+				<div class="slide-container">
+					<div class="left">
+						<ul>
+						    <li> Polar-orbiting weather satellites circle the Earth approximately every 100 minutes at an altitude of 450 miles. Their images are transmitted via <a style="height:40px;"href="https://en.wikipedia.org/wiki/Automatic_picture_transmission">automatic picture transmission <img style='display:inline-block;width:30px'src="./images/sat1.png" /> </a> systems in the form of simple radio waves.Images can be received from any of these satellites when the spacecraft is above your horizon. </li>
+						    
+						</ul>
+					</div>
+					<div class="right">
+						<img src="./images/image003.gif" />
+					</div>
+				</div>
+			</div>
+			<div class="slide" id="slide3">
+				<div class="slide-container">
+					<div class="left">
+						<ul>
+						    <li> > There are three <a href="http://www.noaa.gov/">American National Oceanic and Atmospheric Administration</a> polar-orbiting weather satellites in <a href="https://en.wikipedia.org/wiki/Sun-synchronous_orbit">sun synchronous orbits</a> transmit images daily.</li>
+						    <br>
+						    <li> > Generally broadcasting at 137 MHz, transmissions can be observed with a simple <a href="/images/ant.png"> quadrifilar-helix-antenna</a>, a <a href="https://www.amazon.com/NooElec-RTL-SDR-RTL2832U-Software-Packages/dp/B008S7AVTC">software defined radio </a>and a program like <a href="http://gqrx.dk/">GQRX</a>. 
+						   	</li>
+						    
+						</ul>
+					</div>
+					<div class="right">
+						
+						<img src="./images/gqrx1.png" />
+					</div>
+				</div>
+			</div>
+			<div class="slide" id="slide4">
+				<div class="slide-container">
+					<div class="left">
+						<ul>
+						    <li> > This antenna was built with PVC, copper wire, and a recycled coax cable</li>
+						    <br>
+						    <li> > It is approximately four feet tall, and it loosely tuned to 137 MHz . 
+						   	</li>
+						   	<br>
+						   	<li> >  Using this antenna it is possible to recieve signals from space. </li>
+						    
+						</ul>
+					</div>
+					<div class="right">
+						<img src="./images/ant.png" alt="" style="width:400px">	
+					</div>
+				</div>								
+			</div>
+			<div class="slide" id="slide5">
+				<div class="slide-container">
+					<div class="left">
+						<ul>
+						    <li> > The satellite signals are both audible and beautiful. </li>
+						    <br>
+						    <li> > Captured audio files are downsampled and then demodulated to reproduce the transmitted information.
+						   	</li>
+						    
+						</ul>
+					</div>
+					<div class="right">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/tHDFHc3JgpY" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+
+		   	<div class="slide" id="slide4">
+
+					<p class='small ish'> > Scroll down for images <span class="blink">|</span></p>
+			
+			</div>
+		</div>
+
+		<div class="section" id="section3">
+			<div class="intro">
+				<div class='bg two'>
+					<div class="scroll">
+						<img src="./images/scroll.png" alt="">
+					</div>
+				</div>
+			</div>
+				
+		</div>
+		<div class="section" id="section4">
+			<div class="intro">
+				<div class='bg two'>
+					<div class="scroll">
+						<img src="./images/scroll.png" alt="">
+
+					</div>
+				</div>
+			</div>
+				
+		</div>
+		<div class="section" id="section5">
+			<div class="intro">
+				<div class='bg two'>
+					<div class="scroll">
+						<img src="./images/scroll.png" alt="">
+
+					</div>					
+				</div>
+			</div>
+				
+		</div>
+
+		<div class="section" id="section7">
+			<div class="intro">
+				<div class='bg two'>
+					<div class="scroll">
+						<img src="./images/scroll.png" alt="">
+
+					</div>
+				</div>
+			</div>
+				
+		</div>
+
+
+
+		<div class="section" id="section8">
+			<div class="intro ta-left">
+				<p>
+					<span class="small ish "> > </span> thanks - Tristan Wheeler and Aaron Parsekian
+				</p>
+				<p>
+					<span class="small ish "> > </span> dhruv.mehrotra3@gmail.com for questions  <span class="blink"> | </span>
+				</p>
+				
+				<p>
+					<span class="small ish "> > </span> <a href="http://dhruvmehrotra.info">dhruvmehrotra.info</a>
+				</p>
+				<p> 
+					<span class="small ish "> > </span> <a href="https://github.com/dmehrotra">github/dmehrotra</a> <span class="blink"> | </span>
+
+				</p>
+				<p> 
+					<span class="small ish "> > </span> <a href="https://twitter.com/dmehro">twitter.com/dmehro</a>
+				</p>
+			</div>
+				
+		</div>
+	</div>
+
+<script>
+$("#section3").css("background-image", "url(./images/13.jpg)");  
+$("#section4").css("background-image", "url(./images/18.jpg)");  
+$("#section5").css("background-image", "url(./images/14.jpg)"); 
+$("#section6").css("background-image", "url(./images/17.jpg)");  
+$("#section7").css("background-image", "url(./images/bg1.png)");  
+$("#section8").css("background-image", "url(./images/21.jpg)");  
+
+
+</script>
+</body>
+</html>

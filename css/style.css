@@ -1,0 +1,268 @@
+
+
+h1{
+    font-size: 25px;
+    color: #fff;
+    margin:0;
+    padding:0;
+    font-family: 'Inconsolata'; 
+}
+.intro p{
+    color: #fff;
+    max-width;
+    font-family: 'Inconsolata'; 
+}
+
+/* Centered texts in each section
+* --------------------------------------- */
+.section{
+    text-align:center;
+}
+
+/* Fixed header and footer.
+* --------------------------------------- */
+#header, #footer{
+    position:fixed;
+    height: 50px;
+    display:block;
+    width: 100%;
+    opacity:.7;
+    background: #F2F2EA;
+    z-index:9;
+    text-align:center;
+    color: #221609;
+    padding: 20px 0 0 0;
+    font-size:25px;
+
+}
+
+#header{
+    top:0px;
+}
+#footer{
+    bottom:0px;
+}
+
+
+/* Bottom menu
+* --------------------------------------- */
+#infoMenu {
+    bottom: 80px;
+}
+#infoMenu li a {
+    color: #fff;
+    z-index: 999;
+
+}
+
+.bg{
+  background: url(./../images/25.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:100%;
+  min-height:720px;
+  background-repeat: no-repeat;
+}
+#section3{
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.centered{
+  position: absolute;
+  padding:15px;
+  bottom: 50px;
+  z-index: 2;
+  width:100%;
+  overflow: hidden;
+  background: #F2F2EA;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  opacity:.8;
+  text-align: left;
+  overflow-y: scroll;
+  border:5px solid black;
+}
+.centered-two{
+  position: absolute;
+  padding:15px;
+
+  z-index: 2;
+  width:100%;
+  overflow: hidden;
+background: #F2F2EA;
+top:200px;
+  left: 0;
+  right: 0;
+  opacity:.8;
+  text-align: left;
+  overflow-y: scroll;
+  border:5px solid black;
+
+}
+.centered-two.blk{
+    background:red;
+}
+.centered-two.blk p{
+    color:#F2F2EA;
+}
+
+.centered p, .centered-two p{
+    font-size:20px;
+    width:75%;
+    color:black;
+}
+.centered a , .centered-two a{
+    color:#F2F2EA;
+
+    background:black;
+}
+.centered a:hover:after, .centered-two a:hover:after{
+
+  content: ']';
+}
+.centered a:hover:before, .centered-two a:hover:before{
+
+  content: '[';
+}
+.blink {
+  animation: blinker 1s linear infinite;
+}
+.small{
+    color:green;
+    font-size:15px;
+}
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+.slide-container{
+    margin-top: 10px;
+    width:75%;
+    margin:auto;
+    color:#F2F2EA;
+    font-size:15px;
+}
+.slide-container img{
+    width:100%;
+}
+.left{
+    box-sizing:border-box;
+    float:left;
+    padding:25px;
+    width:35%;
+}
+.slide-container ul li{
+     font-size:20px;
+     text-align: left;
+}
+.right{
+    box-sizing:border-box;
+    float:right;
+    padding:25px;
+    width:65%;
+}
+.right img{
+    width:100%;
+}
+.slide-container a{
+    color:black;
+padding:0px 5px ;
+    background:#F2F2EA;
+}
+.slide-container a:hover:after{
+
+  content: ']';
+}
+.slide-container a:hover:before{
+
+  content: '[';
+}
+.icn-wrp{
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    width:40px;
+}
+.icn-wrp img{
+    width:20px;
+    position:absolute;
+    left:10px;
+    right:0px;
+    top:-20px;
+    
+}
+.ish{
+    font-size:20px;
+}
+#report{
+    background:black;
+    color: #ccc;
+    font-size:10px;
+    font-family: Arial
+}
+.img-bg-left{
+   width:50%;
+   margin-top:20px;
+   float:left;
+}
+.img-bg-right{
+   width:50%;
+   float:right;
+   margin-top:20px;
+}
+.img-bg img{
+    max-width:100%;
+}
+p.black{
+    text-align:left;
+    margin:35px auto;
+    color:black;
+}
+p.black a{
+    color:blue;
+}
+.ta-left{
+    text-align:left;
+}
+.ta-left p a{
+    color:#F2F2EA;
+
+}
+.ta-left-container a{
+    color:black;
+padding:0px 5px ;
+    background:#F2F2EA;
+}
+.ta-left a:hover:after{
+
+  content: ']';
+}
+.ta-left a:hover:before{
+
+  content: '[';
+}
+.scroll{
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom:100px;
+  z-index: 400
+   
+}
+.scroll img{
+  height:50px;
+  width:50px;
+ 
+}
